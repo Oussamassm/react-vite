@@ -6,11 +6,11 @@ import './App.css'
 import Confetti from 'react-confetti'
 
 function App() {
-  <Confetti/>
   const [count, setCount] = useState(0)
-
+  
   return (
     <>
+    <Confetti recycle={false} />
       <section id="center">
         <div className="hero">
           <img src={heroImg} className="base" width="170" height="179" alt="" />
