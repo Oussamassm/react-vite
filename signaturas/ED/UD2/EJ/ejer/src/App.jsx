@@ -4,13 +4,18 @@ import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import './App.css'
 import Confetti from 'react-confetti'
+import PlanetScene from './PlanetScene.jsx'
 
 function App() {
   const [count, setCount] = useState(0)
   
   return (
     <>
+
     <Confetti recycle={false} />
+
+    <PlanetScene/>
+
       <section id="center">
         <div className="hero">
           <img src={heroImg} className="base" width="170" height="179" alt="" />
